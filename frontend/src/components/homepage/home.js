@@ -6,8 +6,8 @@ function Home(props){
     console.log(props.email)
     return(
         <div className='home'>
-           <h1>home</h1>
-           <h4>{props.email}</h4>
+           <h1>Home</h1>
+           <h1>{props.email}</h1>
            <div className='button' onClick={()=>history("/login")} >Logout</div>
         </div>
     )

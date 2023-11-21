@@ -3,9 +3,11 @@
     background:white;
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 /10%),0 8px 16px rgb(0 0 0/10%);
-    border-radius: 8px;
+    border-radius: 10px;
     align-items: center;
     text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .register > input{
     border-radius: 8px;
@@ -27,4 +29,5 @@
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+    font-family: cursive;
 }
